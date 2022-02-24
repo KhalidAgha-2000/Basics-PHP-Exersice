@@ -3,12 +3,8 @@
 $course_name = " React JS";
 $enrolled_students = 5;
 $price = 20.50;
-$on_discount = false;
-
-// Course title: Rust, the language of no bugs
-// Enrolled Students: 20
-// Course price: 30 $ USD
-// Course on discount: Yes / No
+$on_discount = true;
 
 
-echo 'Course title: ' . $course_name . '\n' . 'Enrolled Students: ' . $enrolled_students . '\n' . 'Course price: ' . '\n' . 'Course on discount :' . $on_discount;
+echo 'Course title: ' . $course_name . "\n" . 'Enrolled Students: ' . $enrolled_students . "\n" . 'Course price: ' . $price . "\n" . "Course on discount: ";
+echo ($on_discount == true) ? 'Yes' . "\n" : 'No' . "\n";
