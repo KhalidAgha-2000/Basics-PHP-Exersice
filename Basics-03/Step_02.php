@@ -10,4 +10,5 @@ function stars($number)
     }
     printf(" The Factorial of $number is $f, \n ");
 }
+
 stars(3);
