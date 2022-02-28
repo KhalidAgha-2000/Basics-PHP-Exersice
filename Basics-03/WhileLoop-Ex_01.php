@@ -13,4 +13,4 @@ function stars($number)
         $x++;
     }
 }
-stars(8);
+stars(9);
