@@ -8,7 +8,7 @@ function stars($number)
         $f = $f * $i;
         $i++;
     }
-    printf(" The Factorial of $number is $f, \n ");
+    printf("The Factorial of $number is $f, \n ");
 }
 
 stars(3);
