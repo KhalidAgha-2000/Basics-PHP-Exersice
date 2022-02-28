@@ -14,6 +14,7 @@ function countString($str, $word)
 }
 
 // Driver code
-$str = "you can find count of any string ";
+
+$str = "you can find count of any word in this Exercise  ";
 $word = "you";
 echo "match count of ($word) word is " .  countString($str, $word) . "\n";
