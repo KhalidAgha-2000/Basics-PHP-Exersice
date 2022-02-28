@@ -1,5 +1,4 @@
 <?php
-
 function sum_of_digits($nums)
 {
     $digits_sum = 0;
